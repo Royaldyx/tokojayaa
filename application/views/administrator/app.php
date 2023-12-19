@@ -60,14 +60,14 @@
 			<li <?php if ($navigation_active == "order") { echo 'class="active"'; } ?>>
 				<a href="<?=base_url('/administrator/order.html')?>">
 					<i class="fa fa-shopping-cart"></i>&nbsp; DAFTAR ORDER 
-					<span class="badge pull-right"><?=$this->order_model->count_unread()?></span>
+					<!-- <span class="badge pull-right"><?=$this->order_model->count_unread()?></span> -->
 				</a>
 			</li>
 
 			<li <?php if ($navigation_active == "konfirmasi") { echo 'class="active"'; } ?>>
 				<a href="<?=base_url('/administrator/konfirmasi.html')?>">
 					<i class="fa fa-envelope"></i>&nbsp; KONFIRMASI ORDER
-					<span class="badge pull-right"><?=$this->orderkonfirm_model->count_unread()?></span>
+					<!-- <span class="badge pull-right"><?=$this->orderkonfirm_model->count_unread()?></span> -->
 				</a>
 			</li>
 
@@ -83,11 +83,11 @@
 				</a>
 			</li>
 
-			<li <?php if ($navigation_active == "pengaturan") { echo 'class="active"'; } ?>>
+			<!-- <li <?php if ($navigation_active == "pengaturan") { echo 'class="active"'; } ?>>
 				<a href="<?=base_url('/administrator/pengaturan.html')?>">
 					<i class="fa fa-cogs"></i>&nbsp; PENGATURAN
 				</a>
-			</li>
+			</li> -->
 			
 			<li role="presentation" class="divider"></li>
 			<li <?php if ($navigation_active == "password") { echo 'class="active"'; } ?>>

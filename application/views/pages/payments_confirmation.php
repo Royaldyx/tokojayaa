@@ -13,25 +13,53 @@
                     <form action="" method="post" class="form-horizontal">
                         <div class="registerbox">
                             <fieldset>
-                                <div class="control-group">
+                                <!-- <div class="control-group">
                                     <label class="control-label"><span class="red">*</span> RESI PESANAN :</label>
                                     <div class="controls">
                                         <b>#</b><input type="text" name="resishow" value="<?=substr($_GET['resi'], 7, 3)?>" class="input-xlarge">
                                         <input type="hidden" name="resi" value="<?=$_GET['resi']?>" class="input-xlarge">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="control-group">
+                                    <label class="control-label"><span class="red">*</span> RESI PESANAN :</label>
+                                    <div class="controls">
+                                        <b>#</b>
+                                        <input type="text" name="resishow" value="<?=substr($_GET['resi'], 0, 10)?>" class="input-xlarge" disabled>
+                                        <input type="hidden" name="resi" value="<?=$_GET['resi']?>" class="input-xlarge">
+                                    </div>
+                                </div>
+                                <!-- <div class="control-group">
                                     <label class="control-label"><span class="red">*</span> TUJUAN BANK TRANSFER :</label>
                                     <div class="controls">
                                         <input type="text" name="tujuan" class="input-xlarge">
                                     </div>
+                                </div> -->
+                                <div class="control-group">
+                                    <label class="control-label"><span class="red">*</span> TUJUAN BANK TRANSFER :</label>
+                                    <div class="controls">
+                                        <input type="text" name="tujuan" class="input-xlarge" value="12345678" disabled>
+                                    </div>
                                 </div>
                                 <div class="control-group">
+                                    <label class="control-label"><span class="red">*</span> NOMINAL TRANSFER :</label>
+                                    <div class="controls">
+                                        <input type="text" name="tujuan" class="input-xlarge" value="12345678" disabled>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="control-group">
                                     <label class="control-label"><span class="red">*</span> ATAS NAMA :</label>
                                     <div class="controls">
                                         <input type="text" name="atasnama" class="input-xlarge">
                                     </div>
+                                </div> -->
+                                <div class="control-group">
+                                    <label class="control-label"><span class="red">*</span> ATAS NAMA :</label>
+                                    <div class="controls">
+                                        <input type="text" name="atasnama" class="input-xlarge" value="PT TOKO JAYA LAKARA" disabled>
+                                    </div>
                                 </div>
+
                                 <div class="control-group">
                                     <label class="control-label"><span class="red">*</span> ASAL BANK TRANSFER :</label>
                                     <div class="controls">

@@ -6,9 +6,9 @@
                 <section class="slider">
                     <div id="sliderindex5">
                         <div>
-                            <img src="<?= base_url('/assets/theme/') ?>img/banner.png" alt="" title="" />
+                            <img src="<?= base_url('/assets/theme/') ?>img/1.jpg" alt="" title="" />
                         </div>
-                        <div>
+                        <!-- <div>
                             <img src="<?= base_url('/assets/theme/') ?>img/banner22.png"  alt="" title=""/>
                         </div>
                         <div>
@@ -16,7 +16,7 @@
                         </div>
                         <div>
                             <img src="<?= base_url('/assets/theme/') ?>img/banner22.png" alt="" title="" />
-                        </div>
+                        </div> -->
                     </div>
                 </section>
                 <!-- Slider End-->
