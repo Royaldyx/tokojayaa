@@ -42,7 +42,7 @@
 									<i class="fa fa-sign-in"></i>&nbsp; LOGIN
 								</button>
 							</fieldset>
-							<br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+							<br><center><p>Repost by <a href='https://tokojayaa.lakara.id/' title='tokojayaa.lakara.id' target='_blank'>tokojayaa.lakara.id</a></p></center>
 							
 						</form>
 					</div>

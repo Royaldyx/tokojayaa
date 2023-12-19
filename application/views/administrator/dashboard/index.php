@@ -9,7 +9,7 @@
 			<div class="col-lg-12">
 				<h1 class="page-header">
                     <i class="fa fa-dashboard"></i>
-                    Welcome <?=$this->session->userdata('administrator')['nama']?>!!! | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a>
+                    Welcome <?=$this->session->userdata('administrator')['nama']?>!!! | Repost by <a href='https://tokojayaa.lakara.id/' title='tokojayaa.lakara.id' target='_blank'>tokojayaa.lakara.id</a>
 					
                 </h1>
 			</div>
